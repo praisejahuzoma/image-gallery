@@ -6,12 +6,12 @@
     font-family: sans-serif;
 }
 body{
-    background: rgb(43, 13, 43);
+    background: rgb(43,40,43);
 }
 h1{
     font-family: 'Rouge Script', cursive;
     text-align: center;
-    margin-top: 80px;
+    margin-top: 60px;
     font-size: 50px;
     color: white;
 }
@@ -21,6 +21,7 @@ h1{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-gap: 30px;
+   margin-top: 50px;
 }
 .img-gallery img{
     width: 100%;
@@ -62,4 +63,5 @@ h1{
     text-align: center;
     margin-top: 10px;
     color: white;
+    padding-bottom: 20px;
 }
